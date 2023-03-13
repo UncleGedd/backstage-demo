@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: batcave
+  description: Batcave
+  tags:
+    - kubernetes
+  links:
+    - url: https://grafana-gedd-dev.batcave-dev.internal.cms.gov/
+      title: Grafana
+      icon: user
+    - url: https://argocd-gedd-dev.batcave-dev.internal.cms.gov/
+      title: Argo
+      icon: group
+  annotations:
+    backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+spec:
+  type: service
+  lifecycle: dev
+  owner: batcave
+  system: batcave
+
