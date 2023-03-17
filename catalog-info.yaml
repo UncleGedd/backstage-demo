@@ -14,6 +14,9 @@ metadata:
       icon: group
   annotations:
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/playlist'
+    grafana/dashboard-selector: "(tags @> 'dev'"
+    grafana/tag-selector: "dev"
+    argocd/app-name: batcave
 spec:
   type: service
   lifecycle: dev
